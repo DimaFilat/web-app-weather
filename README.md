@@ -1,11 +1,11 @@
 # My weather app
 
-[![index](1 "index")](../public/img_index.jpg "index")
+[![index](1 "index")](../public/pic_index.jpg)
 
 Информационное приложение для показа погоды.
 
 Для запуска: 
-`npm i`
+`npm i` <br>
 `npm start`
 
 Функционал:
