@@ -1,6 +1,6 @@
 # My weather app
 
-[![index](1 "index")](./web-app-weather/public/pic_index.jpg)
+[!index](/public/pic_index.jpg)
 
 Информационное приложение для показа погоды.
 
