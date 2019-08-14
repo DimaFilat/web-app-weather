@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather App</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+    integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- weather icons -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+  <!-- stylesheet -->
+  <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+  <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5Ev4PycTNWP0rq50VGF5SGbfR1GUc2Xs&libraries=places"></script>
+  <script defer src="/js/weather.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.min.js"></script>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="#">
+      <i class="fa fa-sun-o" aria-hidden="true"></i>
+      <strong>World</strong>Weather
+    </a>
+    <div class="city-search-container">
+      <input type="text" class="city-search" data-city-search placeholder="Enter Location">
+    </div>
+  </nav>
+  <!-- weather section  -->
+  <div class="container">
+    <div class="row">
+      <div id="" class="col-8 mx-auto weather">
+        <!-- weather header section -->
+        <div class="weather-head">
+          <h1 id="location" class="text-center display-4">
+            <div class="general-information">
+              <div class="status" data-status>Enter A Location</div>
+              <div class="location" data-location>To Find The Weather</div>
+            </div>
+          </h1>
+          <div class="row">
+            <div id="description" class="description col-6 text-center">
+              <div class="detail">
+                <div class="title">Precipitation</div>
+                <div class="value" data-precipitation>---</div>
+              </div>
+            </div>
+            <div id="temperature" class="col-6 text-center">
+              <div class="detail bordered">
+
+                <i id="icon-thermometer" class="wi wi-thermometer">
+                  <div class="value" data-temperature>---</div>
+                </i>
+              </div>
+            </div>
+          </div>
+          <!-- weather body header -->
+          <div class="weather-body">
+            <div class="row">
+              <div class="humidity col-4 text-center">
+                <i class="wi wi-raindrop"></i><span> Humidity</span>
+              </div>
+              <div class="wind col-4 text-center">
+                <div class="detail">
+                  <i class="wi wi-strong-wind"></i><span>Wind</span>
+                </div>
+
+              </div>
+              <div class="visibility col-4 text-center">
+                <i class="fa fa-eye"></i><span> Visibility</span>
+              </div>
+            </div>
+            <!-- weather body data -->
+            <div class="row">
+              <div id="humidity" class="humidity-data col-4 text-center">
+                ---
+              </div>
+              <div id="wind" class="wind-data col-4 text-center">
+                ---
+              </div>
+              <div id="visibility" class="degree-data col-4 text-center">
+                ---
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- javascript file -->
+  <script src="js/weather.js"></script>
+
+</body>
+
+</html>

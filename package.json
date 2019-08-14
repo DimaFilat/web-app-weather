@@ -11,11 +11,19 @@
   "dependencies": {
     "connect-redis": "^3.4.0",
     "cookie-parser": "^1.4.4",
+    "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "express-session": "^1.15.6",
-    "hbs": "^4.0.2",
+    "hbs": "^4.0.4",
     "jasmine": "^3.3.1",
     "mongoose": "^5.4.13",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "skycons": "^1.0.0",
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "three": "^0.106.2"
   }
 }

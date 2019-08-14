@@ -115,3 +115,5 @@ typings/
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
+darkSkyKey = "9df1ed539dbd3c12f6e26aae7f784bc1";
+.env
