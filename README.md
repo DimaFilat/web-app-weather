@@ -1,6 +1,6 @@
 # My weather app
 
-[!index](/public/pic_index.jpg)
+![index](/public/pic_index.jpg)
 
 Информационное приложение для показа погоды.
 
