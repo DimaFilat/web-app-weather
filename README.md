@@ -1,4 +1,4 @@
-# My weather app
+# Weather app
 
 ![index](/public/pic_index.jpg)
 
